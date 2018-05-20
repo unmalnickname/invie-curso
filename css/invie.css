@@ -1,6 +1,14 @@
 /* font-family: 'Montserrat', sans-serif; */
 /* font-family: 'Allerta', sans-serif; */
 
+* {
+  margin: 10px;
+  border: 2px solid red;
+  padding: 10px;
+
+
+}
+
 body {
   font-family: 'Allerta', sans-serif;
 }
