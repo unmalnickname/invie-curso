@@ -3,13 +3,11 @@
 
 body {
   font-family: 'Allerta', sans-serif;
-
 }
 
 .titulo {
   font-family: 'Montserrat', sans-serif;
   font-size: 70px;
-
 }
 
 .title-a {
@@ -30,6 +28,16 @@ body {
   background-image: url('../images/background.png');
   color: white;
 }
-.menu{
+.menu {
+  display: inline-block;
   font-size: 24px;
+}
+
+.menu li {
+    font-size: 24px;
+    display: inline-block;
+}
+
+.logotipo {
+  display:  inline-block;
 }
