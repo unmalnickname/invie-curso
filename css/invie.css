@@ -25,8 +25,8 @@ body {
 }
 .guitarras {
   color: #1F313C;
-  width: 800px;
-  margin: auto;
+  /* width: 800px;
+  margin: auto; */
 }
 .guitarras h2 {
   font-family: 'Montserrat', sans-serif;
@@ -41,8 +41,8 @@ body {
   background-image: url('../images/background.png');
   color: white;
   padding: 20px;
-  width: 800px;
-  margin: auto;
+  /* width: 800px;
+  margin: auto; */
 }
 .portada button {
   margin-bottom: 70px;
@@ -63,7 +63,7 @@ body {
 .logotipo {
   display:  inline-block;
 }
-.header{
+.contenedor {
   width: 800px;
   margin: auto;
 }
