@@ -52,6 +52,8 @@ body {
 .menu {
   display: inline-block;
   font-size: 24px;
+  position: absolute;
+  right: 0;
 }
 
 .menu li {
@@ -70,7 +72,7 @@ body {
 .guitarra {
   margin: 10px;
   padding: 10px;
-  overflow: hidden;
+  /* overflow: hidden; */
   border: 1px solid #1f313c;
 }
 .guitarra ol {
@@ -79,9 +81,13 @@ body {
 
 .right{
   float: right;
+  position: relative;
+  top: -116px;
 }
 .left {
   float: left;
+  position: relative;
+  top: 80px;
 }
 .contenedor-guitarra-a {
   padding-left: 20px;
@@ -89,4 +95,7 @@ body {
 
 .contenedor-guitarra-b {
   margin-left:  370px;
+}
+.header{
+  position: relative;
 }
