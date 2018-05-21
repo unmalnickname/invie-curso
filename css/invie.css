@@ -12,20 +12,51 @@ body {
   margin: 0;
 }
 
-button{
-  border-radius: 5px;
+.contenedor {
+  width: 800px;
+  margin: auto;
+}
+table {
+  width: 100%;
+}
+th {
+  background: #273b47;
+  color: white;
+}
+th{
+  padding: 10px 20px;
+  text-align: left;
+}
+
+td {
+  padding: 20px;
+}
+
+table, td, th {
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
+.button{
+  border-radius: 12px;
   border: none;
   background: #fd324e;
   color: White;
-  padding: 7px;
+  text-decoration: none;
+  padding: 7px 12px;
+  font-size: 18px;
+  background: linear-gradient(to left, #fe344e,#ff7250);
+  cursor: pointer;
 }
 .titulo {
   font-family: 'Montserrat', sans-serif;
   font-size: 70px;
   margin-top: 70px;
   margin-bottom: 0px;
-}
 
+}
+.titulo span{
+  text-decoration: underline;
+}
 .title-a {
   font-size: 20px;
   margin-top: 0;
@@ -46,10 +77,11 @@ button{
 }
 .portada {
   background-image: url('../images/background.png');
+  background-size: 100%;
   color: white;
   padding: 20px;
-  /* width: 800px;
-  margin: auto; */
+  height: 500px;
+
 }
 .portada button {
   margin-bottom: 70px;
@@ -69,20 +101,21 @@ button{
     margin-left: 30px;
 }
 .menu li:before{
-  content: '°';
-  font-size: 30px;
-  color: blue;
+  content: '∘';
+  font-size: 50px;
+  line-height: 20px;
+  color: white;
 }
-
+.menu a {
+  color: white;
+  text-decoration: none;
+}
 .logotipo {
   display:  inline-block;
-}
-.contenedor {
-  width: 800px;
-  margin: auto;
+  margin-left: 0;
 }
 .guitarra {
-  margin: 10px;
+  margin: 30px;
   padding: 10px;
   /* overflow: hidden; */
   border: 1px solid #1f313c;
@@ -91,7 +124,9 @@ button{
 .guitarra ol {
   padding: 0;
 }
-
+.guitarra.b {
+  height: 243px;
+}
 .right{
   float: right;
   position: relative;
@@ -100,7 +135,7 @@ button{
 .left {
   float: left;
   position: relative;
-  top: 80px;
+  /* top: 80px; */
 }
 .contenedor-guitarra-a {
   padding-left: 20px;
@@ -108,6 +143,8 @@ button{
 
 .contenedor-guitarra-b {
   margin-left:  370px;
+  position: relative;
+  bottom: 60px;
 }
 .header{
   position: relative;
@@ -115,6 +152,7 @@ button{
 
 .footer{
   background: #273b47;
+  padding: 50px 10px;
 }
 
 
@@ -148,7 +186,7 @@ button{
   display: flex;
   width: 400px;
   color: white;
-  padding: 50px 10px;
+  /* padding: 50px 10px; */
 }
 .col1, .col2{
   display: flex;
@@ -172,26 +210,7 @@ button{
 .sexo {
   margin-top: 10px;
 }
-table {
-  width: 100%;
-}
-th {
-  background: #273b47;
-  color: white;
-}
-th{
-  padding: 10px 20px;
-  text-align: left;
-}
 
-td {
-  padding: 20px;
-}
-
-table, td, th {
-  border: 1px solid #273b47;
-  border-collapse: collapse;
-}
 
 
 
