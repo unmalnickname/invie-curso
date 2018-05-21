@@ -66,9 +66,39 @@
             <a href="tel:"><strong>Telefono</strong> <span>51627018272</span></a>
             <a href="mailto:contacto@invie.com"><strong>E-mail</strong> <span>contacto</span></a>
           </div>
-          <div class="formulario">
-            formulario
-                    </div>
+          <form class="formulario">
+            <label for="nombre">Nombre</label>
+            <input type="text" required id="nombre" name="nombre"/>
+            <label for="email">E-mail</label>
+            <input type="email" required id="email" name="email">
+            <div class="sexo">
+              <label for="mujer">
+                <input type="radio" id="mujer" name="sexo" value="Mujer"> Mujer
+              </label>
+              <label for="Hombre">
+                <input type="radio" id="Hombre" name="sexo" value="Hobre"> Hombre
+              </label>
+            </div>
+            <div class="intereses">
+              <label for="Cotizacion" >
+                <input type="checkbox" id="Cotizacion" name="intereses" value="Cotizacion">Cotizacion
+              </label>
+              <label for="Reclamos" >
+                <input type="checkbox" id="Reclamos" name="intereses" value="Reclamos">Reclamos
+              </label>
+              <label for="Comentarios" >
+                <input type="checkbox" id="Comentarios" name="intereses" value="Comentarios">Comentarios
+              </label>
+              <label for="Otros" >
+                <input type="checkbox" id="Otros" name="intereses" value="Otros">Otros
+              </label>
+            </div>
+            <div>
+              <label for="Comentarios">Comentarios</label>
+              <textarea name="name" rows="7" cols="30"></textarea>
+              <input type="submit" name="" value="enviar">
+            </div>
+        </form>
         </div>
 
       </footer>
